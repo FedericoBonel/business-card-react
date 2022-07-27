@@ -1,0 +1,52 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+    margin-bottom:33px;
+}
+
+.contact-container a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contant-container__btn {
+    margin: 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    padding: 9px 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    transition: 0.3s;
+}
+
+.contant-container__btn:hover {
+    filter: brightness(1.1);
+}
+
+.contant-container__btn:active {
+    transform: scale(0.9);
+}
+
+#email-btn {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    color: black;
+}
+
+#linkedIn-btn {
+    color: white;
+    background: #5093E2;
+}
+
+#linkedIn-icon {
+    margin-right: 4px;
+}
+
+#email-icon {
+    margin-right: 4px;
+}

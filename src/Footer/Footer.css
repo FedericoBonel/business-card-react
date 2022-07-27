@@ -1,0 +1,22 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding: 19px 73px;
+    color: #918E9B;
+    font-size: 25px;
+}
+
+.footer-container a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-container a:hover {
+    filter: brightness(1.3);
+}
