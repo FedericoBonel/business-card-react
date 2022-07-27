@@ -6,7 +6,7 @@ const Header = ({role, portfolio}) => {
     const portfolioNoProt = portfolio.replace("https://", "").replace("http://", "");
 
     return (
-        <div className="header-container">
+        <header className="header-container">
             <img
                 src={headerPicture}
                 alt="profile"
@@ -23,7 +23,7 @@ const Header = ({role, portfolio}) => {
                     {portfolioNoProt}
                 </a>
             </div>
-        </div>
+        </header>
     );
 };
 

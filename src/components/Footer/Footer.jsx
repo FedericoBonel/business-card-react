@@ -8,7 +8,7 @@ import {
 
 const Footer = ({ twitterUrl, instagramUrl, facebookUrl }) => {
     return (
-        <div className="footer-container">
+        <footer className="footer-container">
             <a rel="noreferrer" href={twitterUrl} target="_blank">
                 <FontAwesomeIcon icon={faTwitter} />
             </a>
@@ -18,7 +18,7 @@ const Footer = ({ twitterUrl, instagramUrl, facebookUrl }) => {
             <a rel="noreferrer" href={instagramUrl} target="_blank">
                 <FontAwesomeIcon icon={faInstagram} />
             </a>
-        </div>
+        </footer>
     );
 };
 

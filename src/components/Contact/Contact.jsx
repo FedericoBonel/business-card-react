@@ -4,7 +4,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Contact = ({email, linkedInUrl}) => {
     return (
-        <div className="contact-container">
+        <section className="contact-container">
             <a
                 href={`mailto:${email}`}
                 rel="noreferrer"
@@ -25,7 +25,7 @@ const Contact = ({email, linkedInUrl}) => {
                 <FontAwesomeIcon icon={faLinkedin} id="linkedIn-icon" />
                 LinkedIn
             </a>
-        </div>
+        </section>
     );
 };
 

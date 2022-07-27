@@ -1,0 +1,46 @@
+{
+    "businessCards": [
+        {
+            "id": 0,
+            "role": "Software Engineer",
+            "portfolioUrl": "https://github.com/FedericoBonel",
+            "email": "bonelfederico@gmail.com",
+            "linkedInUrl": "https://www.linkedin.com/in/federico-jorge-bonel-tozzi/",
+            "about": "I am a Computer Engineer student with a particular interest in making things simple, modular, mantainable, and automating daily tasks. I try to keep up with the best practices available, and I'm always looking for any new things to learn.",
+            "interests": [
+                "Cooking",
+                "Wood working",
+                "Reading",
+                "Hiking",
+                "Horse Riding",
+                "Traveling",
+                "Animals",
+                "Coffee fanatic"
+            ],
+            "twitterUrl": "https://twitter.com",
+            "facebookUrl": "https://facebook.com",
+            "instagramUrl": "https://www.instagram.com/fedebonel26/"
+        },
+        {
+            "id": 1,
+            "role": "Front-End developer",
+            "portfolioUrl": "https://github.com/FedericoBonel",
+            "email": "bonelfederico@gmail.com",
+            "linkedInUrl": "https://www.linkedin.com/in/federico-jorge-bonel-tozzi/",
+            "about": "I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and I'm always looking for new things to learn.",
+            "interests": [
+                "Cooking",
+                "Wood working",
+                "Reading",
+                "Hiking",
+                "Horse Riding",
+                "Traveling",
+                "Animals",
+                "Coffee fanatic"
+            ],
+            "twitterUrl": "https://twitter.com",
+            "facebookUrl": "https://facebook.com",
+            "instagramUrl": "https://www.instagram.com/fedebonel26/"
+        }
+    ]
+}
