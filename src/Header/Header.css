@@ -26,18 +26,24 @@
 
 .header-container__title h2 {
     color: #F3BF99;
-    margin-bottom: 8px;
+    margin: 0 0 8px 0;
     font-weight: 400;
     font-size: 12.8px;
     line-height: 15px;
     text-align: center;
 }
 
-.header-container__title p {
+.header-container__title a {
+    text-decoration: none;
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 10.24px;
     line-height: 150%;
     text-align: center;
     color: #F5F5F5;
+    transition: 0.3s;
 }
+
+.header-container__title a:hover {
+    filter: brightness(1.1);
+} 

@@ -1,7 +1,10 @@
 import headerPicture from "./Header.jpg";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({role, portfolio}) => {
+
+    const portfolioNoProt = portfolio.replace("https://", "").replace("http://", "");
+
     return (
         <div className="header-container">
             <img
@@ -11,8 +14,14 @@ const Header = () => {
             />
             <div className="header-container__title">
                 <h1>Federico Bonel</h1>
-                <h2>Software Engineer</h2>
-                <p>https://github.com/FedericoBonel</p>
+                <h2>{role}</h2>
+                <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href={portfolio}
+                >
+                    {portfolioNoProt}
+                </a>
             </div>
         </div>
     );

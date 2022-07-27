@@ -6,12 +6,18 @@ import {
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+const Footer = ({ twitterUrl, instagramUrl, facebookUrl }) => {
     return (
         <div className="footer-container">
-            <a rel="noreferrer" href="https://twitter.com" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a rel="noreferrer" href="https://facebook.com" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
-            <a rel="noreferrer" href="https://instagram.com" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+            <a rel="noreferrer" href={twitterUrl} target="_blank">
+                <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a rel="noreferrer" href={facebookUrl} target="_blank">
+                <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a rel="noreferrer" href={instagramUrl} target="_blank">
+                <FontAwesomeIcon icon={faInstagram} />
+            </a>
         </div>
     );
 };

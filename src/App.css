@@ -1,6 +1,7 @@
 .App {
     height: fit-content;
     width: 317px;
+    margin: 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
