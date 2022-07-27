@@ -1,3 +1,4 @@
+// ! This has to change according to your back-end api!!!
 const CARDS_URL = `http://localhost:3500`;
 
 export const getBusinessCards = async () => {
