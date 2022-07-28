@@ -1,16 +1,18 @@
-import "./Card.css";
+import "./BusinessCard.css";
 import Header from "../../components/Header/Header";
 import Contact from "../../components/Contact/Contact";
 import React from "react";
 import MainContent from "../../components/MainContent/MainContent";
 import Footer from "../../components/Footer/Footer";
 
-let Card = ({ businessCard }) => {
+let BusinessCard = ({ businessCard }) => {
     return (
         <article className="card-container swing-in-top-fwd">
             <Header
+                name={businessCard.name}
                 role={businessCard.role}
                 portfolio={businessCard.portfolioUrl}
+                profileImg={businessCard.profileImg}
             />
             <Contact
                 email={businessCard.email}
@@ -29,4 +31,4 @@ let Card = ({ businessCard }) => {
     );
 };
 
-export default Card = React.memo(Card);
+export default BusinessCard = React.memo(BusinessCard);
